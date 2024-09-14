@@ -103,10 +103,10 @@ def diagonals_locater(rectangle):
     loc1=[slope1,pt1,pt3]
     loc2=[slope2,pt2,pt4]
     return loc1,loc2
-img=cv2.imread("resources/arrow_new.jpg")
-img_up=cv2.imread("resources/arrow_new_up.jpg")
-img_dwn=cv2.imread("resources/arrow_new_down.jpg")
-img_ri=cv2.imread("resources/arrow_new_ri.jpg")
+img=cv2.imread("arrow_new.jpg")
+img_up=cv2.imread("arrow_new_up.jpg")
+img_dwn=cv2.imread("arrow_new_down.jpg")
+img_ri=cv2.imread("arrow_new_ri.jpg")
 kernel = np.ones((5, 5), np.uint8)
 def menu(source):
     ans='y'
