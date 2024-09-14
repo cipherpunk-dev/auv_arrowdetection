@@ -1,2 +1,2 @@
 # auv_arrowdetection
- detecting direction of arrow 
+ for detecting direction of the latest arrow 
